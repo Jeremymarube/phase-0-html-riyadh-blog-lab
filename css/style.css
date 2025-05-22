@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
 html, body {
+  scroll-behavior: smooth;
   height: 100%;
   min-height: 100%;
 }
 
 body {
+  background-color:  #333;
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -28,7 +30,6 @@ h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
 }
-
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
@@ -61,6 +62,7 @@ a {
 }
 
 a:hover {
+  color: #e74c3c;
   text-decoration: underline;
 }
 
